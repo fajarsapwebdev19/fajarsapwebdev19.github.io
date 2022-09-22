@@ -1,0 +1,152 @@
+@font-face {
+  font-family: "Quicksand";
+  src:url('assets/font/Quicksand/static/Quicksand-Medium.ttf')
+}
+
+body{
+  font-family: "Quicksand", sans-serif;
+}
+
+.bg-navbar{
+  background-color: #344CB7;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-image: url('assets/img/coding.jpg');
+  flex-direction: row;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+  padding: 150px 0;
+}
+
+.tulisan-mengetik{
+  font-size: 1.25rem;
+}
+
+.picture{
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+  border-radius: 100%;
+  background-size: cover;
+  background-color: #333333;
+}
+
+#about{
+  padding: 150px 0;
+  font-size: 1em;
+}
+
+
+
+#skills,
+#contact{
+    background-color: #f9f9f9f9;
+    padding: 120px 0;
+}
+
+.text-skills{
+  font-size: 18px;
+}
+
+#skills .bar{
+    height: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 5px 0 20px 0;
+}
+
+.bar .nilai{
+    height: 20px;
+    background-color: #35589A;
+    display:inline-block;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.html{
+  width: 100%;
+  font-weight: 400;
+}
+
+.css{
+  width: 80%;
+  font-weight: 400;
+}
+
+.js{
+  width: 75%;
+  font-weight: 400;
+}
+
+.php{
+  width: 95%;
+  font-weight: 400;
+}
+
+.sql {
+  width: 100%;
+  font-weight: 400;
+}
+
+.dapo{
+  width: 100%;
+  font-weight: 400;
+}
+
+.maintenance{
+  width: 100%;
+  font-weight: 400;
+}
+
+.networking{
+  width: 100%;
+  font-weight: 400;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.icon-whatsapp{
+  font-size: 100px;
+  justify-content: center;
+  color: #01e126;
+}
+
+.icon-facebook{
+  font-size: 100px;
+  justify-content: center;
+  color: #271ae9;
+}
+
+.icon-instagram{
+  font-size: 100px;
+  justify-content: center;
+  color: #dd0c75;
+}
+
+footer{
+  background-color: #344CB7;
+  padding: 30px;
+  text-align: center;
+}
+
+footer small{
+  color: #fff;
+}
+
+/* layar hp resolusi max 768 */
+
+@media only screen and (max-width: 768px){
+
+  .tulisan-mengetik{
+    font-size: 1rem;
+  }
+}
