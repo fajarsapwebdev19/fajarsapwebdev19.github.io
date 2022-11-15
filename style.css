@@ -1,3 +1,8 @@
+*{
+  padding:0;
+  margin:0;
+}
+
 @font-face {
   font-family: "Quicksand";
   src:url('assets/font/Quicksand/static/Quicksand-Medium.ttf')
@@ -12,7 +17,6 @@ body{
 }
 
 .jumbotron {
-  padding-top: 6rem;
   background-image: url('assets/img/coding.jpg');
   flex-direction: row;
   align-items: center;
@@ -21,7 +25,8 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: #fff;
-  padding: 150px 0;
+  padding-top: 80px!important;
+  padding-bottom: 80px!important;
 }
 
 .tulisan-mengetik{
@@ -29,6 +34,7 @@ body{
 }
 
 .picture{
+  max-width: 100%;
   width: 180px;
   height: 180px;
   margin: 0 auto;
@@ -37,17 +43,22 @@ body{
   background-color: #333333;
 }
 
+.contact-content{
+  margin-top: 50px;
+}
+
 #about{
-  padding: 150px 0;
+  padding-top: 80px!important;
+  padding-bottom: 80px!important;
   font-size: 1em;
 }
 
-
-
 #skills,
-#contact{
+#contact,
+#projects{
     background-color: #f9f9f9f9;
-    padding: 120px 0;
+    padding-top: 80px!important;
+    padding-bottom: 80px!important;
 }
 
 .text-skills{
@@ -110,26 +121,24 @@ body{
   font-weight: 400;
 }
 
-section {
-  padding-top: 5rem;
-}
-
 .icon-whatsapp{
   font-size: 100px;
-  justify-content: center;
   color: #01e126;
 }
 
 .icon-facebook{
   font-size: 100px;
-  justify-content: center;
   color: #271ae9;
 }
 
 .icon-instagram{
   font-size: 100px;
-  justify-content: center;
   color: #dd0c75;
+}
+
+.icon-github{
+  font-size: 100px;
+  color: #000;
 }
 
 footer{

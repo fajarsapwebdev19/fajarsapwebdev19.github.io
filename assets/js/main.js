@@ -13,8 +13,14 @@ $(function () {
     })();
 });
 
+$(document).on('click', '.navbar-collapse', function(e) {
+  if ($(e.target).is('a')) {
+      $(this).collapse('hide');
+  }
+});
 
-const txtElement = ['Saya Adalah Seorang Operator Sekolah', 'Saya Adalah Seorang Teknisi Komputer', 'Saya Adalah Seorang Mahasiswa'];
+
+const txtElement = ['Saya Adalah Seorang Operator Sekolah', 'Saya Adalah Seorang Freelancer', 'Saya Adalah Seorang Mahasiswa'];
 let count = 0;
 let txtIndex = 0;
 let currentTxt = '';
