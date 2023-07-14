@@ -20,7 +20,7 @@ $(document).on('click', '.navbar-collapse', function(e) {
 });
 
 
-const txtElement = ['Saya Adalah Seorang Operator Sekolah', 'Saya Adalah Seorang Freelancer', 'Saya Adalah Seorang Mahasiswa'];
+const txtElement = ['Saya Adalah Seorang Operator Sekolah', 'Saya Adalah Seorang Freelancer Web Development', 'Saya Adalah Seorang Mahasiswa'];
 let count = 0;
 let txtIndex = 0;
 let currentTxt = '';
