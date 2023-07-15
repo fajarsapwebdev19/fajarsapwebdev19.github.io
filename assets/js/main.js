@@ -13,11 +13,11 @@ $(function () {
     })();
 });
 
-$(document).on('click', '.navbar-collapse', function(e) {
-  if ($(e.target).is('a')) {
-      $(this).collapse('hide');
-  }
-});
+$(".navbar-brand, .nav-link").on("click", function() {
+  $('.navbar-collapse').collapse('hide');
+  $('.nav-link').removeClass("active");
+  $(this).addClass("active");
+})
 
 
 const txtElement = ['Saya Adalah Seorang Operator Sekolah', 'Saya Adalah Seorang Freelancer Web Development', 'Saya Adalah Seorang Mahasiswa'];

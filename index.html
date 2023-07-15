@@ -11,6 +11,9 @@
     <!-- fontawesome -->
     <link rel="stylesheet" href="assets/fontawesome/css/all.min.css" />
 
+    <!-- aos css -->
+    <link rel="stylesheet" href="assets/aos/dist/aos.css" />
+
     <!-- view plugin -->
     <link rel="stylesheet" href="assets/view/all.css" />
     <link rel="stylesheet" href="assets/view/viewbox.css" />
@@ -39,7 +42,7 @@
     <!-- akhir navbar -->
 
     <!-- jumbotron -->
-    <section class="jumbotron text-center">
+    <section class="jumbotron text-center" data-aos="zoom-in-up">
       <img src="assets/img/fs.jpg" alt="fsp" class="picture" />
       <h1>Fajar Saputra</h1>
       <span class="tulisan-mengetik"></span>
@@ -49,7 +52,7 @@
     <!-- akhir jumbotron -->
 
     <!-- about -->
-    <section class="about" id="about">
+    <section class="about" data-aos="zoom-in-up" id="about">
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
@@ -74,7 +77,7 @@
     <!-- akhir about -->
 
     <!-- bagian skills -->
-    <section id="skills">
+    <section id="skills" data-aos="zoom-in-up">
       <div class="container">
           <h2 class="text-center mt-4">Skills</h2>
 
@@ -122,32 +125,32 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4 mb-5">
+          <div class="col-md-4 mb-5" data-aos="fade-up">
             <a href="assets/img/project/1.png" class="thumbnail" title="Aplikasi E-Pilkebem STMIK PGRI TANGERANG">
               <img src="assets/img/project/1.png" class="img-thumbnail" alt="Project" />
             </a>
           </div>
-          <div class="col-md-4 mb-5">
+          <div class="col-md-4 mb-5" data-aos="fade-up">
             <a href="assets/img/project/2.png" class="thumbnail" title="Website Korpri Kabupaten Tangerang">
               <img src="assets/img/project/2.png" class="img-thumbnail" alt="Project" />
             </a>
           </div>
-          <div class="col-md-4 mb-5">
+          <div class="col-md-4 mb-5" data-aos="fade-up">
             <a href="assets/img/project/3.png" class="thumbnail" title="Aplikasi Catatan Keuangan">
               <img src="assets/img/project/3.png" class="img-thumbnail" alt="Project" />
             </a>
           </div>
-          <div class="col-md-4 mb-5">
+          <div class="col-md-4 mb-5" data-aos="fade-up">
             <a href="assets/img/project/4.png" class="thumbnail" title="PPDB SMK PGRI NEGLASARI">
               <img src="assets/img/project/4.png" class="img-thumbnail" alt="Project" />
             </a>
           </div>
-          <div class="col-md-4 mb-5">
+          <div class="col-md-4 mb-5" data-aos="fade-up">
             <a href="assets/img/project/5.png" class="thumbnail" title="Website Penjualan Baju">
               <img src="assets/img/project/5.png" class="img-thumbnail" alt="Project" />
             </a>
           </div>
-          <div class="col-md-4 mb-5">
+          <div class="col-md-4 mb-5" data-aos="fade-up">
             <a href="assets/img/project/6.png" class="thumbnail" title="Aplikasi Master Data">
               <img src="assets/img/project/6.png" class="img-thumbnail" alt="Project" />
             </a>
@@ -158,7 +161,7 @@
     <!-- My Projects -->
 
     <!-- Contact -->
-    <section id="contact">
+    <section id="contact" data-aos="fade-up">
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
@@ -167,22 +170,22 @@
         </div>
         <div class="contact-content">
           <div class="row mb-10">
-            <div class="col-md-3 mb-5 text-center">
+            <div class="col-md-3 mb-5 text-center" data-aos="zoom-in-up">
               <a href="https://www.instagram.com/fajarsapwebdev19/" target="_blank">
                 <em class="fab fa-instagram icon-instagram"></em>
               </a>
             </div>
-            <div class="col-md-3 mb-5 text-center">
+            <div class="col-md-3 mb-5 text-center" data-aos="zoom-in-up">
               <a href="https://m.facebook.com/people/Webdev/100072712937107/" target="_blank">
                 <em class="fab fa-facebook-f icon-facebook"></em>
               </a>
             </div>
-            <div class="col-md-3 mb-5 text-center">
+            <div class="col-md-3 mb-5 text-center" data-aos="zoom-in-up">
               <a href="https://github.com/fajarsapwebdev19/" target="_blank">
                 <em class="fab fa-github icon-github"></em>
               </a>
             </div>
-            <div class="col-md-3 mb-5 text-center">
+            <div class="col-md-3 mb-5 text-center" data-aos="zoom-in-up">
               <a href="https://api.whatsapp.com/send?phone=6281254199564" target="_blank">
                 <em class="fab fa-whatsapp icon-whatsapp"></em>
               </a>
@@ -196,7 +199,7 @@
     <!-- footer -->
     <footer>
       <div class="container">
-          <small>Copyright &copy;</i> 2021 - Fajar Saputra.</small>
+          <small>Copyright &copy; 2021 - Fajar Saputra.</small>
       </div>
     </footer>
 
@@ -217,6 +220,12 @@
     <!--                                    Main js                                                                     -->
     <!-- ============================================================================================================== -->
     <script src="assets/js/main.js"></script>
+
+    <script src="assets/aos/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
 
    <!--</body>
   </body>
