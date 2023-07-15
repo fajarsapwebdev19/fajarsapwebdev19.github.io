@@ -51,7 +51,6 @@
 /* buttons */
 .viewbox-button-default{
 	cursor: pointer;
-    height: 64px;
     width: 64px;
 }
 .viewbox-button-default > svg{
