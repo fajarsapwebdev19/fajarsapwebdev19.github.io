@@ -87,12 +87,17 @@ body{
 
 .icon-instagram{
   font-size: 100px;
-  color: #dd0c75;
+  color: #E1306C;
 }
 
 .icon-github{
   font-size: 100px;
   color: #000;
+}
+
+.icon-linkedin{
+  font-size: 100px;
+  color: #0E76A8;
 }
 
 footer{
