@@ -1,231 +1,296 @@
 <!DOCTYPE html>
 <html lang="en" id="home">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- bootstrap -->
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- fontawesome -->
-    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css" />
+  <!-- Icon -->
+  <link rel="shortcut icon" href="assets/icon/code.png" type="image/x-icon">
 
-    <!-- aos css -->
-    <link rel="stylesheet" href="assets/aos/dist/aos.css" />
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
 
-    <!-- view plugin -->
-    <link rel="stylesheet" href="assets/view/all.css" />
-    <link rel="stylesheet" href="assets/view/viewbox.css" />
-    <!-- custom -->
-    <link rel="stylesheet" href="style.css" />
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="assets/fontawesome/css/all.min.css" />
 
-    <style>
-      .viewbox-body{
-        top: 55%;
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="assets/aos/dist/aos.css" />
+
+  <!-- View plugin -->
+  <link rel="stylesheet" href="assets/view/all.css" />
+  <link rel="stylesheet" href="assets/view/viewbox.css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    .viewbox-body {
+      top: 55%;
+    }
+  </style>
+
+  <title>Portfolio | Fajar Saputra</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-navbar shadow-sm fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home"><em class="fas fa-code"></em> Fajar Saputra</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link" aria-current="page" href="#about">About</a>
+          <a class="nav-link" href="#skills">My Skill</a>
+          <a class="nav-link" href="#projects">Project</a>
+          <a class="nav-link" href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+
+  <!-- Jumbotron -->
+  <section class="jumbotron text-center" id="home">
+    <img src="assets/img/fs.jpg" alt="fsp" class="picture" data-aos="fade-up" data-aos-duration="2000">
+    <h1 data-aos="fade-up" data-aos-duration="2000">Fajar Saputra</h1>
+    <span class="tulisan-mengetik" data-aos="fade-up" data-aos-duration="2000"></span>
+    <div class="bg-home" data-aos="fade-up" data-aos-duration="2000"></div>
+  </section>
+  <!-- End Jumbotron -->
+
+  <!-- About -->
+  <section class="about" data-aos="fade-up" id="about" data-aos-duration="3000">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h2>About</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center fs-5 text-justify">
+        <div class="col-md-12" data-aos-duration="3000" data-aos="fade-down">
+          <p>
+            Nama saya Fajar Saputra, mahasiswa Semester 8 Program Studi Sistem Informasi di STMIK PGRI Tangerang. Saya
+            memiliki pengalaman lebih dari 4 tahun sebagai IT Support dan Admin Sekolah di SMK PGRI Neglasari. Saya
+            memiliki keahlian dalam troubleshooting, maintenance komputer, jaringan, pembuatan aplikasi, dan
+            pengoperasian komputer. Rencana saya ke depan adalah berkarir sebagai IT di perusahaan teknologi rintisan
+            (start-up).
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End About -->
+
+  <!-- Skills -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="text-center mt-4">Skills</h2>
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-3 text-center" data-aos="fade-up" data-aos-duration="10000">
+          <img src="./assets/icon/html-5.png" class="icon" alt="">
+        </div>
+        <div class="col-md-3 text-center" data-aos="fade-up" data-aos-duration="10000">
+          <img src="./assets/icon/css.png" class="icon" alt="">
+        </div>
+        <div class="col-md-3 text-center" data-aos="fade-up" data-aos-duration="10000">
+          <img src="./assets/icon/js.png" class="icon" alt="">
+        </div>
+        <div class="col-md-3 text-center" data-aos="fade-up" data-aos-duration="10000">
+          <img src="./assets/icon/bootstrap.png" class="icon" alt="">
+        </div>
+        <div class="col-md-3 text-center" data-aos="fade-up" data-aos-duration="10000">
+          <img src="./assets/icon/next-js.512x512.png" class="icon" alt="">
+        </div>
+        <div class="col-md-3 text-center" data-aos="fade-up" data-aos-duration="10000">
+          <img src="./assets/icon/express-original.512x298.png" class="icon" alt="">
+        </div>
+        <div class="col-md-3 text-center" data-aos="fade-up" data-aos-duration="10000">
+          <img src="./assets/icon/laravel.png" class="icon" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Skills -->
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="container">
+      <div class="row text-center mb-5">
+        <div class="col">
+          <h2>My Projects</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 mb-4" data-aos="fade-down" data-aos-duration="3000">
+          <div class="card">
+            <a href="assets/img/project/E-PILKEBEM.png" class="thumbnail">
+              <img src="assets/img/project/E-PILKEBEM.png" class="card-img-top thumbnail" alt="Project 1">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">E-PILKEBEM (Elektronik Pemilihan Ketua Dan Wakil BEM) STMIK PGRI TANGERANG</h5>
+              <p class="card-text">Aplikasi ini telah dikembangkan sejak tahun 2021 di bawah kepemimpinan Ka Dhama sebagai Ketua BEM STMIK PGRI Tangerang. Tujuan utamanya adalah menyelenggarakan pemilihan secara daring tanpa adanya pelanggaran atau kecurangan. Saat ini, aplikasi masih aktif dan terus dikembangkan oleh saya untuk memfasilitasi pemilihan Ketua dan Wakil Ketua BEM. Aplikasi ini dirancang berbasis web menggunakan teknologi PHP versi 7.4, dengan penggunaan AJAX dan Bootstrap sebagai framework CSS-nya.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4" data-aos="fade-down" data-aos-duration="3000">
+          <div class="card">
+            <a href="assets/img/project/Web-Korpri.png" class="thumbnail">
+              <img src="assets/img/project/Web-Korpri.png" class="card-img-top thumbnail" alt="Project 1">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Website Korpri Kabupaten Tangerang</h5>
+              <p class="card-text">Website ini merupakan hasil karya saya, yang dimulai dari sebuah proyek kolaborasi dengan Alvira, rekan sejawat di kampus. Pada tanggal 10 November 2023, kami diajak untuk membuat sebuah situs web untuk sebuah institusi pemerintah, yaitu Korpri Kabupaten Tangerang. Saya bertanggung jawab atas seluruh proses bisnis pengembangan situs web ini, mulai dari perancangan desain hingga implementasi aplikasi. Proyek ini dikembangkan menggunakan PHP dan Bootstrap, sementara untuk panel admin, kami menggunakan Admin LTE.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4" data-aos="fade-down" data-aos-duration="3000">
+          <div class="card">
+            <a href="assets/img/project/PENCATATAN_KEUANGAN.png" class="thumbnail">
+              <img src="assets/img/project/PENCATATAN_KEUANGAN.png" class="card-img-top thumbnail" alt="Project 1">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Catatan Keuangan</h5>
+              <p class="card-text">Aplikasi ini merupakan sistem catatan keuangan yang saya kembangkan khusus untuk mencatat pemasukan dan pengeluaran dengan lebih efisien. Dengan menggunakan teknologi PHP sebagai bahasa pemrograman utama dan Bootstrap sebagai template UI, aplikasi ini menawarkan kemudahan dalam manajemen keuangan sehari-hari.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4" data-aos="fade-down" data-aos-duration="3000">
+          <div class="card">
+            <a href="assets/img/project/LAUNDRY.png" class="thumbnail">
+              <img src="assets/img/project/LAUNDRY.png" class="card-img-top thumbnail" alt="Project 1">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Laundry</h5>
+              <p class="card-text">Aplikasi ini saya kembangkan sebagai sistem pemesanan untuk layanan laundry di Atar Laundry. Fitur-fitur yang disediakan meliputi manajemen master data jenis laundry dan pakaian, proses transaksi laundry, konfirmasi pengiriman, serta penyediaan laporan dan sistem pelacakan pengiriman atau penjemputan bagi pengguna. Sistem ini dibangun menggunakan PHP dan Bootstrap untuk memfasilitasi pengalaman pengguna yang optimal.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4" data-aos="fade-down" data-aos-duration="3000">
+          <div class="card">
+            <a href="assets/img/project/PPDB.png" class="thumbnail">
+              <img src="assets/img/project/PPDB.png" class="card-img-top thumbnail" alt="Project 1">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">PPDB (Penerimaan Peserta Didik Baru) Di SMK PGRI NEGLASARI</h5>
+              <p class="card-text">Aplikasi Penerimaan Peserta Didik Baru (PPDB) untuk SMK PGRI Neglasari dibangun dengan menggunakan teknologi PHP dan Bootstrap. Aplikasi ini dirancang untuk mempermudah proses pendaftaran peserta didik baru secara online. Dengan menggunakan aplikasi ini, calon siswa dapat mengakses formulir pendaftaran, mengunggah dokumen yang diperlukan, serta melacak status pendaftaran mereka secara real-time.
+              Dengan aplikasi PPDB ini, proses penerimaan peserta didik baru dapat dilakukan secara efisien dan transparan, memungkinkan sekolah untuk mengelola jumlah pendaftar dengan lebih baik dan meningkatkan pengalaman pendaftar.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4" data-aos="fade-down" data-aos-duration="3000">
+          <div class="card">
+            <a href="assets/img/project/REST-API.png" class="thumbnail">
+              <img src="assets/img/project/REST-API.png" class="card-img-top thumbnail" alt="Project 1">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">REST API MASTER DATA</h5>
+              <p class="card-text">REST API Master Data yang saya kembangkan dirancang khusus untuk mendukung berbagai aplikasi di lingkungan sekolah, termasuk proses seperti Penerimaan Peserta Didik Baru (PPDB), pendataan siswa, dan sebagainya. REST API Master Data yang saya kembangkan dirancang khusus untuk mendukung berbagai aplikasi di lingkungan sekolah, termasuk proses seperti Penerimaan Peserta Didik Baru (PPDB), pendataan siswa, dan sebagainya.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects -->
+
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h2>Contact</h2>
+        </div>
+      </div>
+      <div class="contact-content">
+        <div class="row mb-10 justify-content-center">
+          <div class="col-md-4 mb-5 text-center" data-aos="zoom-in-up" data-aos-duration="3000">
+            <a href="https://www.instagram.com/fajarsapwebdev19/" target="_blank">
+              <em class="fab fa-instagram icon-instagram"></em>
+            </a>
+          </div>
+          <div class="col-md-4 mb-5 text-center" data-aos="zoom-in-up" data-aos-duration="3000">
+            <a href="https://m.facebook.com/people/Webdev/100072712937107/" target="_blank">
+              <em class="fab fa-facebook-f icon-facebook"></em>
+            </a>
+          </div>
+          <div class="col-md-4 mb-5 text-center" data-aos="zoom-in-up" data-aos-duration="3000">
+            <a href="https://github.com/fajarsapwebdev19/" target="_blank">
+              <em class="fab fa-github icon-github"></em>
+            </a>
+          </div>
+          <div class="col-md-4 mb-5 text-center" data-aos="zoom-in-up" data-aos-duration="3000">
+            <a href="https://api.whatsapp.com/send?phone=6281254199564" target="_blank">
+              <em class="fab fa-whatsapp icon-whatsapp"></em>
+            </a>
+          </div>
+          <div class="col-md-4 mb-5 text-center" data-aos="zoom-in-up" data-aos-duration="3000">
+            <a href="https://www.linkedin.com/in/%20fajarsaputrawebdev19" target="_blank">
+              <em class="fab fa-linkedin icon-facebook"></em>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact -->
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <small>Copyright &copy; 2021 - Fajar Saputra.</small>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <!-- Scripts -->
+  <!-- jQuery -->
+  <script src="assets/view/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap 5 JS -->
+  <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- View Image Plugin JS -->
+  <script src="assets/view/run_prettify.js"></script>
+  <script src="assets/view/jquery.viewbox.min.js"></script>
+  <!-- Main JS -->
+  <script src="assets/js/main.js"></script>
+  <!-- AOS JS -->
+  <script src="assets/aos/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+    document.addEventListener('DOMContentLoaded', function () {
+      const sections = document.querySelectorAll('section');
+      const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+
+      function activateMenu() {
+        let currentSection = '';
+
+        sections.forEach(section => {
+          const sectionTop = section.offsetTop;
+          const sectionHeight = section.clientHeight;
+          if (pageYOffset >= sectionTop - 50 && pageYOffset < sectionTop + sectionHeight - 50) {
+            currentSection = section.getAttribute('id');
+          }
+        });
+
+        navLinks.forEach(link => {
+          link.classList.remove('active');
+          if (link.getAttribute('href').substring(1) === currentSection) {
+            link.classList.add('active');
+          }
+        });
       }
-    </style>
-    <title>Portfolio | Fajar Saputra</title>
-  </head>
-  <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-navbar shadow-sm fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#home"><em class="fas fa-code"></em> Fajar Saputra</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav ms-auto">
-            <a class="nav-link" aria-current="page" href="#about">About</a>
-            <a class="nav-link" href="#skills">My Skill</a>
-            <a class="nav-link" href="#projects">Project</a>
-            <a class="nav-link" href="#contact">Contact</a>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <!-- akhir navbar -->
 
-    <!-- jumbotron -->
-    <section class="jumbotron text-center">
-      <img src="assets/img/fs.jpg" alt="fsp" class="picture" data-aos="fade-up" data-aos-duration="2000">
-      <h1 data-aos="fade-up" data-aos-duration="2000">Fajar Saputra</h1>
-      <span class="tulisan-mengetik" data-aos="fade-up" data-aos-duration="2000"></span>
-      <div class="bg-home" data-aos="fade-up" data-aos-duration="2000"></div>
-    </section>
+      window.addEventListener('scroll', activateMenu);
+      activateMenu(); // Activate on page load
+    });
+  </script>
+</body>
 
-    <!-- akhir jumbotron -->
-
-    <!-- about -->
-    <section class="about" data-aos="fade-up" id="about" data-aos-duration="3000">
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>About</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center fs-5 text-justify">
-          <div class="col-md-12" data-aos-duration="3000" data-aos="fade-down">
-            <p>
-              Saya Fajar Saputra Mahasiswa STMIK PGRI Tangerang Semester 7 Program Studi Sistem Informasi, Memiliki Pengalaman 3 Tahun Lebih Sebagai IT Support Dan Admin Sekolah Di Sekolah SMK PGRI Neglasari Dan Memiliki Keahlian Troubleshoot, Maintenance Komputer, jaringan, Membuat Aplikasi Dan Mengoperasikan Komputer, Rencana Saya Kedepan Adalah Untuk Dapat Berkarir Di Sebagai IT di perusahaan teknologi rintisan (Start-up).
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- akhir about -->
-
-    <!-- bagian skills -->
-    <section id="skills">
-      <div class="container">
-          <h2 class="text-center mt-4">Skills</h2>
-         <div class="row">
-            <div class="col-md-4 mb-3">
-              <div class="d-flex justify-content-center">
-                <img src="./assets/icon/html-5.png" alt="Gambar" class="icon text-center" data-aos-duration="3000" data-aos="fade-up">
-              </div>
-            </div>
-            <div class="col-md-4 mb-3">
-              <div class="d-flex justify-content-center">
-                <img src="./assets/icon/css.png" alt="Gambar" class="icon text-center" data-aos-duration="3000" data-aos="fade-up">
-              </div>
-            </div>
-            <div class="col-md-4 mb-3">
-              <div class="d-flex justify-content-center">
-                <img src="./assets/icon/js.png" alt="Gambar" class="icon text-center" data-aos-duration="3000" data-aos="fade-up">
-              </div>
-            </div>
-            <div class="col-md-4 mb-3">
-              <div class="d-flex justify-content-center">
-                <img src="./assets/icon/php.png" alt="Gambar" class="icon text-center" data-aos-duration="3000" data-aos="fade-up">
-              </div>
-            </div>
-            <div class="col-md-4 mb-3">
-              <div class="d-flex justify-content-center">
-                <img src="./assets/icon/mysql.png" alt="Gambar" class="icon text-center" data-aos-duration="3000" data-aos="fade-up">
-              </div>
-            </div>
-            <div class="col-md-4 mb-3">
-              <div class="d-flex justify-content-center">
-                <img src="./assets/icon/bootstrap.png" alt="Gambar" class="icon text-center" data-aos-duration="3000" data-aos="fade-up">
-              </div>
-            </div>
-         </div>
-      </div>
-    </section>
-
-    <!-- My Projects -->
-    <section id="projects">
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>My Projects</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 mb-5" data-aos="fade-down" data-aos-duration="3000">
-            <a href="assets/img/project/1.png" class="thumbnail" title="Aplikasi E-Pilkebem STMIK PGRI TANGERANG">
-              <img src="assets/img/project/1.png" class="img-thumbnail" alt="Project" />
-            </a>
-          </div>
-          <div class="col-md-4 mb-5" data-aos="fade-down" data-aos-duration="3000">
-            <a href="assets/img/project/2.png" class="thumbnail" title="Website Korpri Kabupaten Tangerang">
-              <img src="assets/img/project/2.png" class="img-thumbnail" alt="Project" />
-            </a>
-          </div>
-          <div class="col-md-4 mb-5" data-aos="fade-down" data-aos-duration="3000">
-            <a href="assets/img/project/3.png" class="thumbnail" title="Aplikasi Catatan Keuangan">
-              <img src="assets/img/project/3.png" class="img-thumbnail" alt="Project" />
-            </a>
-          </div>
-          <div class="col-md-4 mb-5" data-aos="fade-down" data-aos-duration="3000">
-            <a href="assets/img/project/4.png" class="thumbnail" title="PPDB SMK PGRI NEGLASARI">
-              <img src="assets/img/project/4.png" class="img-thumbnail" alt="Project" />
-            </a>
-          </div>
-          <div class="col-md-4 mb-5" data-aos="fade-down" data-aos-duration="3000">
-            <a href="assets/img/project/5.png" class="thumbnail" title="Website Penjualan Baju">
-              <img src="assets/img/project/5.png" class="img-thumbnail" alt="Project" />
-            </a>
-          </div>
-          <div class="col-md-4 mb-5" data-aos="fade-down" data-aos-duration="3000">
-            <a href="assets/img/project/6.png" class="thumbnail" title="Aplikasi Master Data">
-              <img src="assets/img/project/6.png" class="img-thumbnail" alt="Project" />
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- My Projects -->
-
-    <!-- Contact -->
-    <section id="contact">
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>Contact</h2>
-          </div>
-        </div>
-        <div class="contact-content">
-          <div class="row mb-10">
-            <div class="col-md-3 mb-5 text-center" data-aos="zoom-in-up" data-aos-duration="3000">
-              <a href="https://www.instagram.com/fajarsapwebdev19/" target="_blank">
-                <em class="fab fa-instagram icon-instagram"></em>
-              </a>
-            </div>
-            <div class="col-md-3 mb-5 text-center" data-aos="zoom-in-up" data-aos-duration="3000">
-              <a href="https://m.facebook.com/people/Webdev/100072712937107/" target="_blank">
-                <em class="fab fa-facebook-f icon-facebook"></em>
-              </a>
-            </div>
-            <div class="col-md-3 mb-5 text-center" data-aos="zoom-in-up" data-aos-duration="3000">
-              <a href="https://github.com/fajarsapwebdev19/" target="_blank">
-                <em class="fab fa-github icon-github"></em>
-              </a>
-            </div>
-            <div class="col-md-3 mb-5 text-center" data-aos="zoom-in-up" data-aos-duration="3000">
-              <a href="https://api.whatsapp.com/send?phone=6281254199564" target="_blank">
-                <em class="fab fa-whatsapp icon-whatsapp"></em>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Contact -->
-
-    <!-- footer -->
-    <footer>
-      <div class="container">
-          <small>Copyright &copy; 2021 - Fajar Saputra.</small>
-      </div>
-    </footer>
-
-    <!-- ============================================================================================================== -->
-    <!--                                    Jquery                                                                      -->
-    <!-- ============================================================================================================== -->
-    <script src="assets/view/jquery-3.3.1.min.js"></script>
-    <!-- ============================================================================================================== -->
-    <!--                                    Bootstrap 5 Js                                                              -->
-    <!-- ============================================================================================================== -->
-    <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <!-- ============================================================================================================== -->
-    <!--                                    View Image Plugin Js                                                        -->
-    <!-- ============================================================================================================== -->
-    <script src="assets/view/run_prettify.js"></script>
-    <script src="assets/view/jquery.viewbox.min.js"></script>
-    <!-- ============================================================================================================== -->
-    <!--                                    Main js                                                                     -->
-    <!-- ============================================================================================================== -->
-    <script src="assets/js/main.js"></script>
-
-    <script src="assets/aos/dist/aos.js"></script>
-
-    <script>
-      AOS.init();
-    </script>
-
-   <!--</body>
-  </body>
 </html>

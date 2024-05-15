@@ -55,82 +55,24 @@ body{
   margin-top: 50px;
 }
 
-#about{
+#about,
+#contact{
   padding-top: 200px!important;
   padding-bottom: 200px!important;
   font-size: 1em;
 }
+
 #skills
 {
   padding-top: 80px !important;
   padding-bottom: 80px !important;
   background-color: #eaeaea;
 }
-#contact,
+
 #projects{
     background-color: #f9f9f9f9;
-    padding-top: 80px!important;
-    padding-bottom: 80px!important;
-}
-
-.text-skills{
-  font-size: 18px;
-}
-
-#skills .bar{
-    height: 20px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    margin: 5px 0 20px 0;
-}
-
-.bar .nilai{
-    height: 20px;
-    background-color: #35589A;
-    display:inline-block;
-    color: #fff;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.html{
-  width: 100%;
-  font-weight: 400;
-}
-
-.css{
-  width: 80%;
-  font-weight: 400;
-}
-
-.js{
-  width: 75%;
-  font-weight: 400;
-}
-
-.php{
-  width: 95%;
-  font-weight: 400;
-}
-
-.sql {
-  width: 100%;
-  font-weight: 400;
-}
-
-.dapo{
-  width: 100%;
-  font-weight: 400;
-}
-
-.maintenance{
-  width: 100%;
-  font-weight: 400;
-}
-
-.networking{
-  width: 100%;
-  font-weight: 400;
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
 }
 
 .icon-whatsapp{
