@@ -3,6 +3,10 @@
   margin:0;
 }
 
+.viewbox-body {
+  top: 55%;
+}
+
 .icon{
   max-width: 100%;
   height: 200px;
@@ -117,4 +121,14 @@ footer small{
   .tulisan-mengetik{
     font-size: 1rem;
   }
+}
+
+.viewbox-button-next
+{
+  display: none;
+}
+
+.viewbox-button-prev
+{
+  display: none;
 }
