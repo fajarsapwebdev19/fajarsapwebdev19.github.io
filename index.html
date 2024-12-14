@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" id="home">
+<html lang="en">
 
 <head>
   <!-- Required meta tags -->
@@ -40,7 +40,7 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-auto">
           <a class="nav-link" aria-current="page" href="#about">About</a>
-          <a class="nav-link" href="#skills">My Skill</a>
+          <a class="nav-link" href="#skills">Skill</a>
           <a class="nav-link" href="#projects">Project</a>
           <a class="nav-link" href="#contact">Contact</a>
         </div>
@@ -63,7 +63,8 @@
     <div class="container">
       <div class="row text-center mb-3">
         <div class="col">
-          <h2>About</h2>
+          <h2 class="title-header">About</h2>
+          <hr>
         </div>
       </div>
       <div class="row justify-content-center fs-5 text-justify">
@@ -85,7 +86,8 @@
   <!-- Skills -->
   <section id="skills">
     <div class="container">
-      <h2 class="text-center mt-4">Skills</h2>
+      <h2 class="title-header">Skills</h2>
+      <hr>
       <div class="row d-flex justify-content-center">
         <div class="col-md-3 text-center" data-aos="fade-up" data-aos-duration="10000">
           <img src="./assets/icon/html-5.png" class="icon" alt="">
@@ -118,100 +120,132 @@
     <div class="container">
       <div class="row text-center mb-5">
         <div class="col">
-          <h2>My Projects</h2>
+          <h2 class="title-header">Project</h2>
+          <hr>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4 mb-4" data-aos="fade-down" data-aos-duration="3000">
+        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-duration="1000">
           <div class="card">
             <a href="assets/img/project/E-PILKEBEM.png" class="thumbnail">
               <img src="assets/img/project/E-PILKEBEM.png" class="card-img-top thumbnail" alt="Project 1">
             </a>
             <div class="card-body">
               <h5 class="card-title">E-PILKEBEM (Elektronik Pemilihan Ketua Dan Wakil BEM) STMIK PGRI TANGERANG</h5>
-              <p class="card-text">Aplikasi ini telah dikembangkan sejak tahun 2021 di bawah kepemimpinan Ka Dhama
+              <p class="card-text">
+                <span id="text-1">Aplikasi ini telah dikembangkan sejak tahun 2021...</span>
+                <span id="full-1" class="full">
+                Aplikasi ini telah dikembangkan sejak tahun 2021 di bawah kepemimpinan Ka Dhama
                 sebagai Ketua BEM STMIK PGRI Tangerang. Tujuan utamanya adalah menyelenggarakan pemilihan secara daring
                 tanpa adanya pelanggaran atau kecurangan. Saat ini, aplikasi masih aktif dan terus dikembangkan oleh
                 saya untuk memfasilitasi pemilihan Ketua dan Wakil Ketua BEM. Aplikasi ini dirancang berbasis web
-                menggunakan teknologi PHP versi 7.4, dengan penggunaan AJAX dan Bootstrap sebagai framework CSS-nya.</p>
+                menggunakan teknologi PHP versi 7.4, dengan penggunaan AJAX dan Bootstrap sebagai framework CSS-nya.
+                </span>
+              </p>
+              <button class="btn btn-primary more" data-id="1">Selengkapnya</button>
             </div>
           </div>
         </div>
-        <div class="col-md-4 mb-4" data-aos="fade-down" data-aos-duration="3000">
+        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-duration="1000">
           <div class="card">
             <a href="assets/img/project/Web-Korpri.png" class="thumbnail">
               <img src="assets/img/project/Web-Korpri.png" class="card-img-top thumbnail" alt="Project 1">
             </a>
             <div class="card-body">
               <h5 class="card-title">Website Korpri Kabupaten Tangerang</h5>
-              <p class="card-text">Website ini merupakan hasil karya saya, yang dimulai dari sebuah proyek kolaborasi
-                dengan Alvira, rekan sejawat di kampus. Pada tanggal 10 November 2023, kami diajak untuk membuat sebuah
-                situs web untuk sebuah institusi pemerintah, yaitu Korpri Kabupaten Tangerang. Saya bertanggung jawab
-                atas seluruh proses bisnis pengembangan situs web ini, mulai dari perancangan desain hingga implementasi
-                aplikasi. Proyek ini dikembangkan menggunakan PHP dan Bootstrap, sementara untuk panel admin, kami
-                menggunakan Admin LTE.</p>
+              <p class="card-text">
+                <span id="text-2">Website ini merupakan hasil karya saya, yang dimulai...</span>
+                <span id="full-2" class="full">
+                  Website ini merupakan hasil karya saya, yang dimulai dari sebuah proyek kolaborasi
+                  dengan Alvira, rekan sejawat di kampus. Pada tanggal 10 November 2023, kami diajak untuk membuat sebuah
+                  situs web untuk sebuah institusi pemerintah, yaitu Korpri Kabupaten Tangerang. Saya bertanggung jawab
+                  atas seluruh proses bisnis pengembangan situs web ini, mulai dari perancangan desain hingga implementasi
+                  aplikasi. Proyek ini dikembangkan menggunakan PHP dan Bootstrap, sementara untuk panel admin, kami
+                  menggunakan Admin LTE.
+                </span>
+              </p>
+              <button class="btn btn-primary more" data-id="2">Selengkapnya</button>
             </div>
           </div>
         </div>
-        <div class="col-md-4 mb-4" data-aos="fade-down" data-aos-duration="3000">
+        <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-duration="1000">
           <div class="card">
             <a href="assets/img/project/PENCATATAN_KEUANGAN.png" class="thumbnail">
               <img src="assets/img/project/PENCATATAN_KEUANGAN.png" class="card-img-top thumbnail" alt="Project 1">
             </a>
             <div class="card-body">
               <h5 class="card-title">Catatan Keuangan</h5>
-              <p class="card-text">Aplikasi ini merupakan sistem catatan keuangan yang saya kembangkan khusus untuk
-                mencatat pemasukan dan pengeluaran dengan lebih efisien. Dengan menggunakan teknologi PHP sebagai bahasa
-                pemrograman utama dan Bootstrap sebagai template UI, aplikasi ini menawarkan kemudahan dalam manajemen
-                keuangan sehari-hari.</p>
+              <p class="card-text">
+                <span id="text-3">
+                  Aplikasi ini merupakan sistem catatan keuangan yang...
+                </span>
+                <span id="full-3" class="full">
+                  Aplikasi ini merupakan sistem catatan keuangan yang saya kembangkan khusus untuk
+                  mencatat pemasukan dan pengeluaran dengan lebih efisien. Dengan menggunakan teknologi PHP sebagai bahasa
+                  pemrograman utama dan Bootstrap sebagai template UI, aplikasi ini menawarkan kemudahan dalam manajemen
+                  keuangan sehari-hari.
+                </span>
+                </p>
+                <button class="btn btn-primary more" data-id="3">Selengkapnya</button>
             </div>
           </div>
         </div>
-        <div class="col-md-4 mb-4" data-aos="fade-down" data-aos-duration="3000">
+        <div class="col-md-4 mb-4" data-aos="fade-down" data-aos-duration="1000">
           <div class="card">
             <a href="assets/img/project/LAUNDRY.png" class="thumbnail">
               <img src="assets/img/project/LAUNDRY.png" class="card-img-top thumbnail" alt="Project 1">
             </a>
             <div class="card-body">
               <h5 class="card-title">Laundry</h5>
-              <p class="card-text">Aplikasi ini saya kembangkan sebagai sistem pemesanan untuk layanan laundry di Atar
-                Laundry. Fitur-fitur yang disediakan meliputi manajemen master data jenis laundry dan pakaian, proses
-                transaksi laundry, konfirmasi pengiriman, serta penyediaan laporan dan sistem pelacakan pengiriman atau
-                penjemputan bagi pengguna. Sistem ini dibangun menggunakan PHP dan Bootstrap untuk memfasilitasi
-                pengalaman pengguna yang optimal.</p>
+              <p class="card-text">
+                <span id="text-4">
+                  Aplikasi ini saya kembangkan sebagai sistem ...
+                </span>
+                <span id="full-4" class="full">
+                  Aplikasi ini saya kembangkan sebagai sistem pemesanan untuk layanan laundry di Atar
+                  Laundry. Fitur-fitur yang disediakan meliputi manajemen master data jenis laundry dan pakaian, proses transaksi laundry, konfirmasi pengiriman, serta penyediaan laporan dan sistem pelacakan pengiriman atau penjemputan bagi pengguna. Sistem ini dibangun menggunakan PHP dan Bootstrap untuk memfasilitasi pengalaman pengguna yang optimal.
+                </span>
+                </p>
+                <button class="btn btn-primary more" data-id="4">Selengkapnya</button>
             </div>
           </div>
         </div>
-        <div class="col-md-4 mb-4" data-aos="fade-down" data-aos-duration="3000">
+        <div class="col-md-4 mb-4" data-aos="fade-down" data-aos-duration="1000">
           <div class="card">
             <a href="assets/img/project/PPDB.png" class="thumbnail">
               <img src="assets/img/project/PPDB.png" class="card-img-top thumbnail" alt="Project 1">
             </a>
             <div class="card-body">
               <h5 class="card-title">PPDB (Penerimaan Peserta Didik Baru) Di SMK PGRI NEGLASARI</h5>
-              <p class="card-text">Aplikasi Penerimaan Peserta Didik Baru (PPDB) untuk SMK PGRI Neglasari dibangun
-                dengan menggunakan teknologi PHP dan Bootstrap. Aplikasi ini dirancang untuk mempermudah proses
-                pendaftaran peserta didik baru secara online. Dengan menggunakan aplikasi ini, calon siswa dapat
-                mengakses formulir pendaftaran, mengunggah dokumen yang diperlukan, serta melacak status pendaftaran
-                mereka secara real-time.
-                Dengan aplikasi PPDB ini, proses penerimaan peserta didik baru dapat dilakukan secara efisien dan
-                transparan, memungkinkan sekolah untuk mengelola jumlah pendaftar dengan lebih baik dan meningkatkan
-                pengalaman pendaftar.</p>
+              <p class="card-text">
+                <span id="text-5">
+                  Aplikasi Penerimaan Peserta Didik Baru (PPDB) untuk ...
+                </span>
+                <span id="full-5" class="full">
+                  Aplikasi Penerimaan Peserta Didik Baru (PPDB) untuk SMK PGRI Neglasari dibangun
+                  dengan menggunakan teknologi PHP dan Bootstrap. Aplikasi ini dirancang untuk mempermudah proses pendaftaran peserta didik baru secara online. Dengan menggunakan aplikasi ini, calon siswa dapat mengakses formulir pendaftaran, mengunggah dokumen yang diperlukan, serta melacak status pendaftaran mereka secara real-time. Dengan aplikasi PPDB ini, proses penerimaan peserta didik baru dapat dilakukan secara efisien dan transparan, memungkinkan sekolah untuk mengelola jumlah pendaftar dengan lebih baik dan meningkatkan pengalaman pendaftar.
+                </span>
+              </p>
+              <button class="btn btn-primary more" data-id="5">Selengkapnya</button>
             </div>
           </div>
         </div>
-        <div class="col-md-4 mb-4" data-aos="fade-down" data-aos-duration="3000">
+        <div class="col-md-4 mb-4" data-aos="fade-down" data-aos-duration="1000">
           <div class="card">
             <a href="assets/img/project/REST-API.png" class="thumbnail">
               <img src="assets/img/project/REST-API.png" class="card-img-top thumbnail" alt="Project 1">
             </a>
             <div class="card-body">
               <h5 class="card-title">REST API MASTER DATA</h5>
-              <p class="card-text">REST API Master Data yang saya kembangkan dirancang khusus untuk mendukung berbagai
-                aplikasi di lingkungan sekolah, termasuk proses seperti Penerimaan Peserta Didik Baru (PPDB), pendataan
-                siswa, dan sebagainya. REST API Master Data yang saya kembangkan dirancang khusus untuk mendukung
-                berbagai aplikasi di lingkungan sekolah, termasuk proses seperti Penerimaan Peserta Didik Baru (PPDB),
-                pendataan siswa, dan sebagainya.</p>
+              <article class="card-text mb-2">
+                <span id="text-6">
+                  REST API Master Data yang saya kembangkan dirancang ...
+                </span>
+                <span id="full-6" class="full">
+                  REST API Master Data yang saya kembangkan dirancang khusus untuk mendukung berbagai aplikasi di lingkungan sekolah, termasuk proses seperti Penerimaan Peserta Didik Baru (PPDB), pendataan siswa, dan sebagainya. REST API Master Data yang saya kembangkan dirancang khusus untuk mendukung berbagai aplikasi di lingkungan sekolah, termasuk proses seperti Penerimaan Peserta Didik Baru (PPDB), pendataan siswa, dan sebagainya.
+                </span>
+              </article>
+              <button class="btn btn-primary more" data-id="6">Selengkapnya</button>
             </div>
           </div>
         </div>
@@ -220,13 +254,13 @@
   </section>
   <!-- End Projects -->
 
-
   <!-- Contact -->
   <section id="contact">
     <div class="container">
       <div class="row text-center mb-3">
         <div class="col">
-          <h2>Contact</h2>
+          <h2 class="title-header">Contact</h2>
+          <hr>
         </div>
       </div>
       <div class="contact-content">

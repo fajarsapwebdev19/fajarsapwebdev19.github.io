@@ -1,11 +1,29 @@
 *{
   padding:0;
   margin:0;
+  scroll-behavior: smooth;
 }
 
 .viewbox-body {
-  top: 55%;
+  top: 53%;
 }
+
+hr {
+  width: 5%;
+  margin: 0 auto; 
+  border: none; 
+  padding: 2px;
+  background-color: #006BFF;
+  opacity: 1;
+  margin-bottom: 20px;
+}
+
+.title-header
+{
+  text-align: center;
+  font-weight: 600;
+}
+
 
 .icon{
   max-width: 100%;
@@ -25,7 +43,7 @@ body{
 }
 
 .bg-navbar{
-  background-color: #344CB7;
+  background-color: #006BFF !important;
 }
 
 .jumbotron {
@@ -37,8 +55,18 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: #fff;
-  padding-top: 180px!important;
-  padding-bottom: 180px!important;
+  padding-top: 230px!important;
+  padding-bottom: 240px!important;
+}
+
+.navbar {
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
 }
 
 .tulisan-mengetik{
@@ -59,68 +87,99 @@ body{
   margin-top: 50px;
 }
 
-#about,
-#contact{
-  padding-top: 200px!important;
-  padding-bottom: 200px!important;
+#about
+{
+  padding-top: 230px!important;
+  padding-bottom: 240px!important;
   font-size: 1em;
 }
 
 #skills
 {
-  padding-top: 80px !important;
-  padding-bottom: 80px !important;
+  padding-top: 140px !important;
+  padding-bottom: 240px !important;
   background-color: #eaeaea;
 }
 
-#projects{
+#projects
+{
     background-color: #f9f9f9f9;
     padding-top: 80px !important;
     padding-bottom: 80px !important;
 }
 
-.icon-whatsapp{
+#contact
+{
+  padding-top: 80px !important;
+  padding-bottom: 80px !important;
+}
+
+.icon-whatsapp
+{
   font-size: 100px;
   color: #01e126;
 }
 
-.icon-facebook{
+.icon-facebook
+{
   font-size: 100px;
   color: #271ae9;
 }
 
-.icon-instagram{
+.icon-instagram
+{
   font-size: 100px;
   color: #E1306C;
 }
 
-.icon-github{
+.icon-github
+{
   font-size: 100px;
   color: #000;
 }
 
-.icon-linkedin{
+.icon-linkedin
+{
   font-size: 100px;
   color: #0E76A8;
 }
 
-footer{
-  background-color: #344CB7;
-  padding: 30px;
+footer
+{
+  background-color: #006BFF;
+  font-weight: 600;
+  padding: 12px;
   text-align: center;
 }
 
-footer small{
+footer small
+{
   color: #fff;
 }
 
 /* layar hp resolusi max 768 */
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px)
+{
 
   .tulisan-mengetik{
     font-size: 1rem;
   }
+
+  .jumbotron{
+    padding-top: 330px !important;
+    padding-bottom: 320px !important;
+  }
+}
+
+.card-text
+{
+  text-align: justify;
+}
+
+.full 
+{
+  display: none;
 }
 
 .viewbox-button-next

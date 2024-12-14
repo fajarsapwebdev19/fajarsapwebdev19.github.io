@@ -20,7 +20,7 @@ $(".navbar-brand, .nav-link").on("click", function () {
 })
 
 
-const txtElement = ['Freelancer Web Developer'];
+const txtElement = ['IT SUPPORT', 'WEB DEVELOPER', 'LARAVEL DEVELOPER'];
 let count = 0;
 let txtIndex = 0;
 let currentTxt = '';
@@ -41,7 +41,7 @@ let words = '';
     txtIndex = 0
   }
 
-  setTimeout(ngetik, 100);
+  setTimeout(ngetik, 300);
 })();
 
 AOS.init();
@@ -56,12 +56,10 @@ document.addEventListener('DOMContentLoaded', function () {
     sections.forEach(section => {
       const sectionTop = section.offsetTop;
       const sectionHeight = section.clientHeight;
-      if (pageYOffset >= sectionTop - 50 && pageYOffset < sectionTop + sectionHeight - 50) {
-        currentSection = section.getAttribute('id');
-      }
-    });
+      if (pageYOffset >= sectionTop - 50 && pageYOffset
 
-    navLinks.forEach(link => {
+        < sectionTop + sectionHeight - 50) { currentSection = section.getAttribute('id'); }
+    }); navLinks.forEach(link => {
       link.classList.remove('active');
       if (link.getAttribute('href').substring(1) === currentSection) {
         link.classList.add('active');
@@ -73,3 +71,20 @@ document.addEventListener('DOMContentLoaded', function () {
   activateMenu(); // Activate on page load
 });
 
+$('.more').click(function () {
+
+  const id = $(this).data('id');
+
+  if ($(`#full-${id}`).is(':visible')) {
+    // Jika terlihat, sembunyikan konten lengkap dan tampilkan konten singkat
+    $(`#full-${id}`).hide();
+    $(`#text-${id}`).show();
+    $(this).text('Baca Selengkapnya'); // Ubah tombol kembali
+  } else {
+    // Jika tersembunyi, tampilkan konten lengkap dan sembunyikan konten singkat
+    $(`#text-${id}`).hide();
+    $(`#full-${id}`).show();
+    $(this).text('Sembunyikan'); // Ubah tombol menjadi "Sembunyikan"
+  }
+
+});
