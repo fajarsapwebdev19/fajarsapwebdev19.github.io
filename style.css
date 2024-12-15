@@ -1,6 +1,6 @@
-*{
-  padding:0;
-  margin:0;
+* {
+  padding: 0;
+  margin: 0;
   scroll-behavior: smooth;
 }
 
@@ -9,23 +9,22 @@
 }
 
 hr {
-  width: 5%;
-  margin: 0 auto; 
-  border: none; 
+  width: 3%;
+  margin: 0 auto;
+  border: none;
   padding: 2px;
   background-color: #006BFF;
   opacity: 1;
   margin-bottom: 20px;
 }
 
-.title-header
-{
+.title-header {
   text-align: center;
   font-weight: 600;
 }
 
 
-.icon{
+.icon {
   max-width: 100%;
   height: 200px;
   width: 150px;
@@ -35,14 +34,14 @@ hr {
 
 @font-face {
   font-family: "Quicksand";
-  src:url('assets/font/Quicksand/static/Quicksand-Medium.ttf')
+  src: url('assets/font/Quicksand/static/Quicksand-Medium.ttf')
 }
 
-body{
+body {
   font-family: "Quicksand", sans-serif;
 }
 
-.bg-navbar{
+.bg-navbar {
   background-color: #006BFF !important;
 }
 
@@ -55,8 +54,8 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: #fff;
-  padding-top: 230px!important;
-  padding-bottom: 240px!important;
+  padding-top: 230px !important;
+  padding-bottom: 240px !important;
 }
 
 .navbar {
@@ -66,14 +65,14 @@ body{
   align-items: center;
   justify-content: space-between;
   padding-top: 0.1rem;
-  padding-bottom: 0.1rem;
+  padding-bottom: 0.2rem;
 }
 
-.tulisan-mengetik{
+.tulisan-mengetik {
   font-size: 1.25rem;
 }
 
-.picture{
+.picture {
   max-width: 100%;
   width: 180px;
   height: 180px;
@@ -83,111 +82,105 @@ body{
   background-color: #333333;
 }
 
-.contact-content{
-  margin-top: 50px;
+.contact-content {
+  margin-top: 30px;
 }
 
-#about
-{
-  padding-top: 230px!important;
-  padding-bottom: 240px!important;
+#about {
+  padding-top: 230px !important;
+  padding-bottom: 240px !important;
   font-size: 1em;
 }
 
-#skills
-{
+#skills {
   padding-top: 140px !important;
   padding-bottom: 240px !important;
   background-color: #eaeaea;
 }
 
-#projects
-{
-    background-color: #f9f9f9f9;
-    padding-top: 80px !important;
-    padding-bottom: 80px !important;
-}
-
-#contact
-{
+#projects {
+  background-color: #f9f9f9f9;
   padding-top: 80px !important;
   padding-bottom: 80px !important;
 }
 
-.icon-whatsapp
-{
+#contact {
+  padding-top: 80px !important;
+  padding-bottom: 80px !important;
+}
+
+.icon-whatsapp {
   font-size: 100px;
   color: #01e126;
 }
 
-.icon-facebook
-{
+.icon-facebook {
   font-size: 100px;
   color: #271ae9;
 }
 
-.icon-instagram
-{
+.icon-instagram {
   font-size: 100px;
   color: #E1306C;
 }
 
-.icon-github
-{
+.icon-github {
   font-size: 100px;
   color: #000;
 }
 
-.icon-linkedin
-{
+.icon-linkedin {
   font-size: 100px;
   color: #0E76A8;
 }
 
-footer
-{
+footer {
   background-color: #006BFF;
   font-weight: 600;
   padding: 12px;
   text-align: center;
 }
 
-footer small
-{
+footer small {
   color: #fff;
 }
 
 /* layar hp resolusi max 768 */
 
-@media only screen and (max-width: 768px)
-{
+@media only screen and (max-width: 768px) {
 
-  .tulisan-mengetik{
+  .tulisan-mengetik {
     font-size: 1rem;
   }
 
-  .jumbotron{
+  .jumbotron {
     padding-top: 330px !important;
     padding-bottom: 320px !important;
   }
+
+  hr {
+    width: 5%;
+    margin: 0 auto;
+    border: none;
+    padding: 2px;
+    background-color: #006BFF;
+    opacity: 1;
+    margin-bottom: 20px;
+  }
 }
 
-.card-text
-{
+.card-text {
   text-align: justify;
 }
 
-.full 
-{
+.full {
   display: none;
 }
 
-.viewbox-button-next
-{
+.viewbox-button-next {
   display: none;
 }
 
-.viewbox-button-prev
-{
+.viewbox-button-prev {
   display: none;
 }
